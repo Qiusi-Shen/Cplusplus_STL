@@ -20,3 +20,5 @@ mylist.erase(itr);      // mylist: {4, 8, 5, 2, 6} O(1)
 // 1. fast insert/remove at any place: O(1)
 // 2. slow search: O(n)
 // 3. no random access, no [] operator.                    
+
+mylist1.splice(itr, mylist2, itr_a, itr_b); O(1);
